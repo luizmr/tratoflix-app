@@ -6,12 +6,8 @@ function Footer() {
 	return (
 		<FooterBase>
 			<a href="/">
-				<img src={Tratoflix} alt="Logo Celoflix" className="logo" />
+				<img src={Tratoflix} alt="Logo Tratoflix" className="logo" />
 			</a>
-			<p>
-				Orgulhosamente criado durante a{" "}
-				<a href="https://www.alura.com.br/">Imersão React da Alura</a>
-			</p>
 		</FooterBase>
 	);
 }
